@@ -16,7 +16,16 @@
 
 .list-container{
     margin-top: 30px;
-    width: 560px;
+    width: 530px;
     height: 500px;
     background-color: grey;
+    padding: 40px;
+    position: relative;
+}
+
+.btn{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    font-size: 3rem;
 }
