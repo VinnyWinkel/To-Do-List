@@ -35,8 +35,9 @@ function addTask(){
     }
 } 
 
- 
+   input.value = ""
 
+   inputContainer.style.display = "none"
  
 }
 

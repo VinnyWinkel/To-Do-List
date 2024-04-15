@@ -46,6 +46,7 @@ ul{
     border-radius: 0.5rem;
     position: absolute;
     top: 200px;
+    display: none;
     
 }
 
