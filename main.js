@@ -2,6 +2,7 @@
 let inputBtn = document.getElementById("btn");
 let inputContainer = document.getElementById("input-container");
 let addBtn = document.getElementById("add-btn");
+let cancelBtn = document.getElementById("cancel-btn");
 let input = document.getElementById("input");
 let list = document.getElementById("list");
 
@@ -39,6 +40,12 @@ function addTask(){
 
    inputContainer.style.display = "none"
  
+}
+
+cancelBtn.addEventListener('click',cancel);
+
+function cancel(){
+    inputContainer.style.display = "none"
 }
 
 
