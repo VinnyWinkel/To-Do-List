@@ -11,6 +11,7 @@ inputBtn.addEventListener('click',inputAppear);
 
 function inputAppear(){
     inputContainer.style.display = "block"
+    input.focus()
 }
 
 addBtn.addEventListener('click',addTask);
